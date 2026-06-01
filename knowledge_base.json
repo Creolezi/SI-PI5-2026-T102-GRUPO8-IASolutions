@@ -1,0 +1,62 @@
+[
+  {
+    "classe": "DVR OFFLINE",
+    "perguntas": "Houve queda ou pico de energia recentemente? Foi feita troca ou manutenção da internet / roteador?",
+    "solucoes": "1. Desligar o DVR da energia por 10 segundos e ligar novamente. 2. Reiniciar o roteador da internet. 3. Verificar se o cabo de rede está conectado no DVR.",
+    "tecnico": "Alteração na configuração de rede (IP), DVR fora da mesma rede da internet, Problema no roteador ou cabo de rede"
+  },
+  {
+    "classe": "CÂMERAS OFFLINE",
+    "perguntas": "Houve queda de energia recentemente? Quantas câmeras estão offline?",
+    "solucoes": "1. Reiniciar o DVR. 2. Verificar se as fontes das câmeras estão ligadas. 3. Reiniciar o switch de rede (caso exista).",
+    "tecnico": "Switch queimado, Porta do switch danificada, Fonte de alimentação queimada, Cabo de rede danificado"
+  },
+  {
+    "classe": "CÂMERAS NÃO ESTÃO GRAVANDO",
+    "perguntas": "Houve queda de energia recentemente? O problema começou de repente ou após algum evento?",
+    "solucoes": "1. Reiniciar o DVR desligando da energia por 10 segundos. 2. Após ligar, verificar novamente se as gravações aparecem no sistema.",
+    "tecnico": "HD corrompido, HD queimado, Falha no sistema de gravação"
+  },
+  {
+    "classe": "NÃO CONSEGUE VISUALIZAR AS CÂMERAS NO COMPUTADOR",
+    "perguntas": "O computador está na mesma rede das câmeras? O usuário está logado no software de monitoramento?",
+    "solucoes": "1. Verificar se o computador está conectado à mesma rede do DVR/câmeras. 2. Confirmar se está logado no software de monitoramento. 3. Reiniciar o software de visualização.",
+    "tecnico": "Reconfiguração do software, Ajuste de rede, Reconfiguração de acesso remoto"
+  },
+  {
+    "classe": "APLICATIVO DO CELULAR NÃO CONECTA NAS CÂMERAS",
+    "perguntas": "A internet do local está funcionando? O aplicativo funcionava antes?",
+    "solucoes": "1. Fechar e abrir novamente o aplicativo. 2. Reiniciar o NVR/DVR. 3. Verificar se o celular está conectado à internet.",
+    "tecnico": "Reconfigurar acesso remoto, Verificar conexão do gravador com a internet"
+  },
+  {
+    "classe": "DVR / NVR TRAVANDO OU LENTO",
+    "perguntas": "O problema começou recentemente? Houve queda de energia?",
+    "solucoes": "1. Reiniciar o DVR/NVR. 2. Aguardar alguns minutos após ligar.",
+    "tecnico": "HD com defeito, Sobrecarga do sistema, Falha no equipamento"
+  },
+  {
+    "classe": "CÂMERA SEM IMAGEM",
+    "perguntas": "Apenas uma câmera está assim ou várias? Houve queda de energia?",
+    "solucoes": "1. Reiniciar o switch PoE. 2. Reiniciar o NVR/DVR.",
+    "tecnico": "Porta PoE com defeito, Cabo de rede danificado, Câmera IP com defeito"
+  },
+  {
+    "classe": "CÂMERA COM IMAGEM RUIM",
+    "perguntas": "A imagem sempre foi assim ou começou recentemente?",
+    "solucoes": "1. Limpar a lente da câmera. 2. Verificar se não há água ou sujeira na lente.",
+    "tecnico": "Problema no cabo de rede, Problema na rede, Câmera IP danificada"
+  },
+  {
+    "classe": "LEITOR FACIAL / CONTROLE DE ACESSO NÃO FUNCIONA",
+    "perguntas": "Houve queda de energia recentemente? O equipamento está ligado ou a tela está apagada?",
+    "solucoes": "1. Desligar a fonte do leitor facial por 10 segundos e ligar novamente. 2. Verificar se o equipamento está recebendo energia.",
+    "tecnico": "Travamento do equipamento, Problema na fonte, Falha de comunicação com o sistema, Equipamento danificado"
+  },
+  {
+    "classe": "SISTEMA DE CONTROLE DE ACESSO NÃO RECEBE EVENTOS",
+    "perguntas": "O sistema estava funcionando normalmente antes? Houve queda de energia ou reinicialização do computador?",
+    "solucoes": "1. Fechar o software de controle de acesso. 2. Abrir o Gerenciador de Tarefas. 3. Localizar FC Access Server. 4. Clicar com o botão direito e Reiniciar. 5. Abrir novamente o sistema.",
+    "tecnico": "Será necessário atendimento técnico remoto ou presencial."
+  }
+]
