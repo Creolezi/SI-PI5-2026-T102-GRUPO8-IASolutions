@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFRAService - IA de Suporte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <aside class="sidebar">
+            <div class="sidebar-icon active">▣</div>
+            <div class="sidebar-icon">⌕</div>
+        </aside>
+
+        <main class="main-area">
+
+            <header class="topbar">
+                <div class="brand">
+                    <img src="logo.png" class="logo-infra" alt="INFRAService">
+                </div>
+            </header>
+
+            <section class="chat-history" id="chatHistory">
+                <div class="message system-msg">
+                    <div class="avatar">IA</div>
+                    <div class="content">
+                        <p>Olá! Sou a Inteligência Artificial responsável pelo suporte técnico, como posso te ajudar?</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="chat-input-container">
+
+                <button id="clearChatBtn" class="clear-chat-btn" type="button">
+                    Limpar Chat
+                </button>
+
+                <form id="chatForm">
+                    <input 
+                        type="text" 
+                        id="userInput" 
+                        placeholder="Ex: Câmeras offline e cabo quebrado..." 
+                        autocomplete="off"
+                    >
+
+                    <button type="submit" id="sendBtn" class="send-btn">
+                        ➤
+                    </button>
+                </form>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
